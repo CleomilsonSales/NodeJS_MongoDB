@@ -1,0 +1,32 @@
+-iniciando um package
+    npm init -y
+
+-instalando biblioteca express (node_module) - framework
+    npm install express
+
+-instalando mongoose - conecta com banco não relacional
+   npm install mongoose
+
+-executar o node
+    node index.js
+
+-nodemon - serve para deixar o restart do node automatico   
+    -D que dizer que so vai funcionar em desenvolvimento
+    npm install nodemon -D
+
+    --coloca trecho no package.json em scripts
+        "dev": "nodemon src/index.js",
+
+    -executar o node com nodemon
+    npm run dev
+
+--acessando ou criar conta do mongobd:
+    https://cloud.mongodb.com/v2/65fe34d3a4310e168989b13e#/overview
+
+
+dependencias:
+    Nodejs 20.11.3
+    express 4.19.1
+    nodemon 3.1.0
+    mongoose 8.2.3
+    mongodb 6.5.0
